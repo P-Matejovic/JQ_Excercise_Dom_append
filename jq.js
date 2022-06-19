@@ -10,12 +10,12 @@ const Names = ["Petr","Pavel","Michal","Oldřich","Pepa"];
 Names.forEach(function(item){
     
     if (item === "Pavel") {
-        $(".ul").append("<li>"+item+"<li>");
+        $(".ul").append("<li>"+item+"</li>");
         $("Pavel").css("font-weight","bold")
         
     }
     else {
-        $(".ul").append("<li>"+item+"<li>");
+        $(".ul").append("<li>"+item+"</li>");
         $("li").css("font-weight","normal")
     };
     
